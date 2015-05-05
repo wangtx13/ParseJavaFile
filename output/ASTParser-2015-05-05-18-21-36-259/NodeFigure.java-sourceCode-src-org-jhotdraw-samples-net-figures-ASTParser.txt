@@ -1,0 +1,21 @@
+/*
+ * @ # Node Figure 1 0 July 4 2006
+ *
+ * Copyright 1996-2006 by the original authors of Jhotdraw
+ * and all its contributors Jhotdraw org 
+ * All rights reserved 
+ *
+ * This software the confidential and proprietary information of
+ * Jhotdraw org Confidential Information You shall not disclose
+ * such Confidential Information and shall use it only accordance
+ * with the terms of the license agreement you entered into with
+ * Jhotdraw org 
+ *
+ * Original copyright Jhotdraw 
+ * Project 		 J Hotdraw - G U I framework for technical drawings
+ *				http //www jhotdraw org
+ *				http //jhotdraw sourceforge net
+ * Copyright 	 by the original author and all contributors
+ * License 		 Lesser G N U Public License L G P L 
+ *				http //www opensource org/licenses/lgpl-license html
+ */ // Grow for connectors // closest connector // stay below Connection Figures 

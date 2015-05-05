@@ -1,0 +1,13 @@
+/*
+ * @ # J Popup Button Bean Info 1 0 11 November 2003
+ *
+ * Copyright 1996-2006 by the original authors of Jhotdraw
+ * and all its contributors Jhotdraw org 
+ * All rights reserved 
+ *
+ * This software the confidential and proprietary information of
+ * Jhotdraw org Confidential Information You shall not disclose
+ * such Confidential Information and shall use it only accordance
+ * with the terms of the license agreement you entered into with
+ * Jhotdraw org 
+ */ // Bean descriptor information will be obtained from introspection // G E N- F I R S T Bean Descriptor // G E N- H E A E R E N Bean Descriptor // Here you can add for customizing the Bean Descriptor // G E N- L A S T Bean Descriptor // Properties information will be obtained from introspection // G E N- F I R S T Properties // G E N- H E A E R E N Properties // Here you can add for customizing the properties // G E N- L A S T Properties // Event set information will be obtained from introspection // G E N- F I R S T Events // G E N- H E A E R E N Events // Here you can add for customizing the event sets // G E N- L A S T Events // Method information will be obtained from introspection // G E N- F I R S T Methods // G E N- H E A E R E N Methods // Here you can add for customizing the // G E N- L A S T Methods // G E N- B E G I N Icons Def // G E N- E N Icons Def // G E N- B E G I N Icons // G E N- E N Icons // G E N- B E G I N Idx // G E N- E N Idx // G E N- F I R S T Superclass // Here you can add for customizing the Superclass Bean Info // G E N- L A S T Superclass 

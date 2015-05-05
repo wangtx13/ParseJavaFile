@@ -1,0 +1,24 @@
+/*
+ * @ # Bezier 2 0 1 2006-06-14
+ *
+ * Copyright 1996-2006 by the original authors of Jhotdraw
+ * and all its contributors Jhotdraw org 
+ * All rights reserved 
+ *
+ * This software the confidential and proprietary information of
+ * Jhotdraw org Confidential Information You shall not disclose
+ * such Confidential Information and shall use it only accordance
+ * with the terms of the license agreement you entered into with
+ * Jhotdraw org 
+ */ /* Digitized points */ /* Squared error */ /* Fit the Bezier curves */ /* Unit tangent vectors endpoints */ /* Unit tangent vectors endpoints */ /* Control points of fitted Bezier curve*/ /* Parameter values for point */ /* Improved values */ /* Maximum fitting error	 */ /* Point to split point set 
+ This of size one because we need it input/output 
+ */ /* Number of points subset */ /* Error below which you try iterating */ /* Max times to try iterating */ /* Unit tangent vector split Point */ /* Use heuristic if region only has two points it */ /* Parameterize points and attempt to fit curve */ /* Find max deviation of points to fitted curve */ /* If error not too large try some reparameterization */ /* and iteration */ /* Fitting failed -- split max error point and fit recursively */ /* Control points of fitted Bezier curve*/ /* Parameter values for point */ /* Improved values */ /* Maximum fitting error	 */ /* Point to split point set 
+ This of size one because we need it input/output 
+ */ /* Number of points subset */ /* Error below which you try iterating */ /* Max times to try iterating */ /* Unit tangent vector split Point */ /* Use heuristic if region only has two points it */ /* Parameterize points and attempt to fit curve */ /* Find max deviation of points to fitted curve */ /* If error not too large try some reparameterization */ /* and iteration */ /* Fitting failed -- split max error point and fit recursively */ /* Precomputed rhs for eqn	*/ /* Number of pts sub-curve */ /* Matrix C		*/ /* Matrix X			*/ /* Determinants of matrices	*/ /* Alpha values left and right	*/ /* Utility variable		*/ /* R E T U R N bezier curve ctl pts	*/ /* Compute the A's	*/ /* Create the C and X matrices	*/ /*					 C 1 0 += V2 Dot A 0 A 1 */ /* Compute the determinants of C and X	*/ /* Finally derive alpha values	*/ /* If alpha negative use the Wu/ Barsky heuristic see text */ /* if alpha 0 you get coincident control points that to
+ * divide by zero any subsequent Newton Raphson Root Find call */ /* First and last control points of the Bezier curve are */ /* positioned exactly the first and last data points */ /* Control points 1 and 2 are positioned alpha distance out */ /* the tangent vectors left and right respectively */ /* New values	*/ /* Q' and Q''			*/ /*u evaluated Q Q' Q''	*/ /* Improved u	*/ /* Compute Q 	*/ /* Generate control vertices for Q'	*/ /* Generate control vertices for Q'' */ /* Compute Q' and Q'' 	*/ /* Compute /f' */ /* = - /f' */ /* Point curve t	*/ /* Local copy of control points		*/ /* Copy array	*/ /* Triangle computation	*/ /* Parameterization		*/ /* Maximum error */ /* Current error */ /* Point curve */ /* Vector from point to curve */ /* -------------------------------------------------------------------------
+ * Graphics Gems c
+ * 2d and 3d Vector C Library
+ * by Andrew Glassner
+ * from Graphics Gems Academic Press 1990
+ * -------------------------------------------------------------------------
+ */ 

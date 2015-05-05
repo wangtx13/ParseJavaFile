@@ -1,0 +1,13 @@
+/*
+ * @ # Save Before Action 2 0 2006-06-15
+ *
+ * Copyright 2005-2006 Werner Randelshofer
+ * Staldenmattweg 2 Immensee C H-6405 Switzerland 
+ * All rights reserved 
+ *
+ * This software the confidential and proprietary information of
+ * Werner Randelshofer Confidential Information You shall not
+ * disclose such Confidential Information and shall use it only in
+ * accordance with the terms of the license agreement you entered into
+ * with Werner Randelshofer 
+ */ //int option = Chooser show Save Dialog this 

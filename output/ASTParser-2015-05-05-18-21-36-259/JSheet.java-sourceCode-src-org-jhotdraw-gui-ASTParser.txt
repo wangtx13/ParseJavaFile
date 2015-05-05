@@ -1,0 +1,18 @@
+/*
+ * @ # J Sheet 2 0 2006-07-02
+ *
+ * Copyright 2005-2006 Werner Randelshofer
+ * Staldenmattweg 2 Immensee C H-6405 Switzerland 
+ * All rights reserved 
+ *
+ * This software the confidential and proprietary information of
+ * Werner Randelshofer Confidential Information You shall not
+ * disclose such Confidential Information and shall use it only in
+ * accordance with the terms of the license agreement you entered into
+ * with Werner Randelshofer 
+ */ // We move the sheet when the user moves the owner that it // will always stay centered below the title bar of the owner // If the user has moved the owner we 'forget' the shift back location // and don't shift the owner back to the place it was when we opened // the sheet // Determine the location for the sheet and its owner while // the sheet will be visible // In case we have to shift the owner to fully display the // dialog we remember the shift back position // J Frame owner set Resizable // J Frame owner set Resizable // Quaqua Utilities set Window Alpha this 240 // Reinserted // Guaranteed to non-null // Process the listeners last to first notifying // those that are interested this event // Lazily create the event // Guaranteed to non-null // Process the listeners last to first notifying // those that are interested this event // Lazily create the event /*
+ sheet add Window Listener new Window Adapter {
+ window Closed Window Event evt {
+ sheet dispose 
+ }
+ } */ // Once window gets focus set initial focus // Ugly dirty hack J Option Pane select Initial Value // So we call directly into the U I This may cause mayhem //because we the encapsulation //pane select Initial Value // reset value to ensure closing works properly // Let the default Close Operation handle the closing // if the user closed the window without selecting button // new Value = that case Otherwise close the sheet // Begin Create Dialog // End Create Dialog 

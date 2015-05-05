@@ -1,0 +1,14 @@
+/*
+ * @ # Text Area Figure 2 0 1 2006-02-27
+ *
+ * Copyright 1996-2006 by the original authors of Jhotdraw
+ * and all its contributors Jhotdraw org 
+ * All rights reserved 
+ *
+ * This software the confidential and proprietary information of
+ * Jhotdraw org Confidential Information You shall not disclose
+ * such Confidential Information and shall use it only accordance
+ * with the terms of the license agreement you entered into with
+ * Jhotdraw org 
+�
+ */ // cache of the Text Figure's layout // Strings split get Text '\n' // assume styled Text Attributed Character Iterator and the number // of tabs styled Text tab Count // Now tab Locations has entry for every tab's offset // the text For convenience the last entry tab Locations // the offset of the last character the text // Lay out and draw each line All segments line // must be computed before any drawing can occur since // we must know the largest ascent the line // Text Layouts are computed and stored List // their horizontal positions are stored parallel // List // line Contains Text after first segment drawn // layout can be if line Contains Text // move to next tab stop // now iterate through layouts and draw them 

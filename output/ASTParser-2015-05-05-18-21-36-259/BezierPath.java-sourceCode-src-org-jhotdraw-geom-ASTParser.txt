@@ -1,0 +1,89 @@
+/*
+ * @ # Bezier Path 1 1 2006-03-22
+ *
+ * Copyright 1996-2006 by the original authors of Jhotdraw
+ * and all its contributors Jhotdraw org 
+ * All rights reserved 
+ *
+ * This software the confidential and proprietary information of
+ * Jhotdraw org Confidential Information You shall not disclose
+ * such Confidential Information and shall use it only accordance
+ * with the terms of the license agreement you entered into with
+ * Jhotdraw org 
+ */ /*
+ Point2 ctr = get Center 
+ 
+ // Chopped point
+ cx = -1 
+ cy = -1 
+ len = MAX_VALUE 
+ 
+ // Try for points along edge
+ validate Path 
+ Path Iterator = general Path get Path Iterator new Affine Transform 1 
+ coords = new 6 
+ type = current Segment coords 
+ prev X = coords 0 
+ prev Y = coords 1 
+ next 
+ for ! Done next {
+ current Segment coords 
+ Point2 chop = Geom intersect 
+ prev X prev Y 
+ coords 0 coords 1 
+ 
+ ctr ctr y
+ 
+ 
+ if chop != {
+ = Geom length2 chop chop 
+ if < len {
+ len = 
+ cx = chop 
+ cy = chop 
+ }
+ }
+ 
+ prev X = coords 0 
+ prev Y = coords 1 
+ }
+ 
+ //
+ if Closed size > 1 {
+ Node first = get 0 
+ Node last = get size - 1 
+ Point2 chop = Geom intersect 
+ first 0 first 0 
+ last 0 last 0 
+ 
+ ctr ctr y
+ 
+ if chop != {
+ = Geom length2 chop chop 
+ if < len {
+ len = 
+ cx = chop 
+ cy = chop 
+ }
+ }
+ }
+ 
+ 
+ // if none found pick closest vertex
+ if len == MAX_VALUE {
+ for = 0 = size < j++ {
+ Node cp = get 
+ = Geom length2 cp 0 cp 0 
+ if < len {
+ len = 
+ cx = cp 0 
+ cy = cp 0 
+ }
+ }
+ }
+ new Point2 cx cy 
+ */ // Determine the length of the path // Compute the relative point the path //if new Point2 coords 0 coords 1 // Compute the relative Point2 the line /*
+ new Point2 
+ prev X * pos / len + coords 0 * pos + seg Len / len 
+ prev Y * pos / len + coords 1 * pos + seg Len / len
+ */ // X X X - This works only for straight lines! // quadto // quadto // cubicto // lineto 

@@ -1,0 +1,13 @@
+/*
+ * @ # Bezier Figure 2 1 1 2006-06-08
+ *
+ * Copyright 1996-2006 by the original authors of Jhotdraw
+ * and all its contributors Jhotdraw org 
+ * All rights reserved 
+ *
+ * This software the confidential and proprietary information of
+ * Jhotdraw org Confidential Information You shall not disclose
+ * such Confidential Information and shall use it only accordance
+ * with the terms of the license agreement you entered into with
+ * Jhotdraw org 
+ */ //path set Closed Closed // R A W I N G // S H A P E A N B O U N S // A T T R I B U T E S // E I T I N G // C O N N E C T I N G // C O M P O S I T E F I G U R E S // C L O N I N G // E V E N T H A N L I N G // F I X M E - Check here if caps path contains the point // F I X M E - Check here if caps path contains the point // Make sure bounds are not empty // X X X - Fire undoable Edit event // Fixme - use path iterator 

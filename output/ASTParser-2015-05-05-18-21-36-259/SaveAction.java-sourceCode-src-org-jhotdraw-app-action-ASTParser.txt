@@ -1,0 +1,13 @@
+/*
+ * @ # Save Action 1 2 1 2006-07-25
+ *
+ * Copyright 2005-2006 Werner Randelshofer
+ * Staldenmattweg 2 Immensee C H-6405 Switzerland 
+ * All rights reserved 
+ *
+ * This software the confidential and proprietary information of
+ * Werner Randelshofer Confidential Information You shall not
+ * disclose such Confidential Information and shall use it only in
+ * accordance with the terms of the license agreement you entered into
+ * with Werner Randelshofer 
+ */ 

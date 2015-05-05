@@ -1,0 +1,13 @@
+/*
+ * @ # S V G Live Connect Applet 2 0 2006-01-15
+ *
+ * Copyright 1996-2006 by the original authors of Jhotdraw
+ * and all its contributors Jhotdraw org 
+ * All rights reserved 
+ *
+ * This software the confidential and proprietary information of
+ * Jhotdraw org Confidential Information You shall not disclose
+ * such Confidential Information and shall use it only accordance
+ * with the terms of the license agreement you entered into with
+ * Jhotdraw org 
+ */ // Set look and feel // ----------------- // nothing // If we can't set the desired look and feel U I Manager does // automaticaly the right thing for us // Display copyright info while we are loading the data // ---------------------------------------------------- // Strings split get Applet Info '\n' // We load the data using worker thread // -------------------------------------- // <editor-fold defaultstate= collapsed desc= Generated Code >// G E N- B E G I N init Components // </editor-fold>// G E N- E N init Components // G E N- F I R S T event_save // G E N- L A S T event_save // G E N- F I R S T event_load // G E N- L A S T event_load // Variables declaration - not modify// G E N- B E G I N variables // End of variables declaration// G E N- E N variables 
