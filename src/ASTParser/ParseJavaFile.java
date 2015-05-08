@@ -54,6 +54,7 @@ public class ParseJavaFile {
         for (Comment comment : (List<Comment>) cu.getCommentList()) {
             CommentVisitor commentVisitor = new CommentVisitor(cu, str);
             comment.accept(commentVisitor);
+//            System.out.println(commentVisitor.getAllComments().toString());
             allComments.append(commentVisitor.getAllComments().toString());
         }
 
@@ -120,9 +121,14 @@ class CommentVisitor extends ASTVisitor {
         int start = node.getStartPosition();
         int end = start + node.getLength();
         String comment = source.substring(start, end);
-        allComments.append(comment);
-        allComments.append("\r\n");
-        return true;
+
+        if (!comment.contains("Copyright")) {
+            allComments.append(comment);
+            allComments.append("\r\n");
+            return true;
+        } else {
+            return false;
+        }
     }
 
     public StringBuffer getAllComments() {
