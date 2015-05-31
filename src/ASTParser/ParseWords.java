@@ -23,7 +23,7 @@ public class ParseWords {
         String[] allWords = originalWords.toString().split(" |\"|\\(|\\)|\\[|\\]|\\.|&|:|;|\r\n|,|-");
         
         for (String word : allWords) {
-            if (!word.equals("")) {
+            if (!word.equals("")) {              
                 String[] splitWords = splitCamelWords(word);
                 /*若word被拆分，将原词也加入*/
                 if (splitWords.length > 1) {
